@@ -1,0 +1,24 @@
+{
+  "name": "getir_interview",
+  "version": "1.0.0",
+  "description": "Mongo base api creation",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jrishabhk/getir_interview.git"
+  },
+  "keywords": [
+    "getir",
+    "interview",
+    "mongo"
+  ],
+  "author": "Rishabh Joling",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jrishabhk/getir_interview/issues"
+  },
+  "homepage": "https://github.com/jrishabhk/getir_interview#readme"
+}
