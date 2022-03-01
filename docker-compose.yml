@@ -1,0 +1,11 @@
+version: '3.9'
+services :
+  getir-service :
+    container_name : getir-service
+    restart: always
+    build: './'
+    ports:
+      - 4501:4501
+    volumes:
+      - ./:/code
+   
