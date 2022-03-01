@@ -4,7 +4,9 @@
   "description": "Mongo base api creation",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/app.js",
+    "debug": "nodemon --inspect=127.0.0.1:9229 src/app.js"
   },
   "repository": {
     "type": "git",
@@ -20,5 +22,17 @@
   "bugs": {
     "url": "https://github.com/jrishabhk/getir_interview/issues"
   },
-  "homepage": "https://github.com/jrishabhk/getir_interview#readme"
+  "homepage": "https://github.com/jrishabhk/getir_interview#readme",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "express-validator": "^6.14.0",
+    "http-errors": "^2.0.0",
+    "mongo": "^0.1.0",
+    "mongodb": "^4.4.0",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
 }
