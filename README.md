@@ -7,7 +7,7 @@ Local Setup
 ```
 
 #ENDpoint
-https://getir-interview.herokuapp.com//Record/getRecords
+https://getir-interview.herokuapp.com/Record/getRecords
 
 # Request Body
 ```
