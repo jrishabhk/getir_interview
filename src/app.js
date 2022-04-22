@@ -33,7 +33,7 @@ app.use((req, res, next) => {
 });
 
 //Use routes
-app.get('/', (req, res) => res.send({ message: 'Hello from Getir' }))
+app.get('/', (req, res) => res.send({ message: 'Hello from Getir' }));
 
 app.use('/Record/', RecordRouter);
 
