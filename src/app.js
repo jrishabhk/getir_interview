@@ -51,7 +51,7 @@ app.use((err, req, res, next) => {
     })
 });
 
-app.get('/', (req, res) => res.json({ message: 'Hello World' }))
+app.get('/', (req, res) => res.json({ message: 'Hello from Getir' }))
 const port = accessEnv("APP_PORT", 9521);
 
 const start = async () => {
