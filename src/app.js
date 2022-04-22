@@ -53,7 +53,7 @@ app.use((err, req, res, next) => {
     })
 });
 
-const port = accessEnv("APP_PORT", 3000);
+const port = accessEnv("PORT", 3000);
 
 const start = async () => {
 
@@ -61,6 +61,7 @@ const start = async () => {
     global.db = dbConnection;
     app.listen(port, () => console.log(`🚀 Getir find Service listening on port ${port}!`))
 }
+
 const wait = async () => {
     await new Promise(res => setTimeout(res, 5000));
 }
