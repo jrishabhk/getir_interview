@@ -30,13 +30,11 @@ https://getir-interview.herokuapp.com/Record/getRecords
     "records": [
         {
             "key": "mrniAseF",
-            "value": "gPPZayxTEcfQ",
             "createdAt": "2015-11-21T04:24:26.167Z",
             "totalCount": 3757
         },
         {
             "key": "mrniAseF",
-            "value": "gPPZayxTEcfQ",
             "createdAt": "2015-11-21T04:24:26.167Z",
             "totalCount": 3757
         }
