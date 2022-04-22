@@ -2,8 +2,14 @@
 
 Local Setup
 ```
+    #install dependecies
     $npm install
+
+    # run application
     $npm start
+
+    # run test in application
+    $npm run test
 ```
 
 #ENDpoint
