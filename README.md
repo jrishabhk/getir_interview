@@ -1,9 +1,16 @@
 # getir_interview
 
+Local Setup
+```
+    $npm install
+    $npm start
+```
+
 #ENDpoint
-http://localhost:9521/Record/getRecords
+https://getir-interview.herokuapp.com//Record/getRecords
 
 # Request Body
+```
 {
     "data" : {
         "startDate" : "2015-11-27",
@@ -12,5 +19,27 @@ http://localhost:9521/Record/getRecords
         "maxCount": 3000
     }
 }
+```
 
 # Response Body
+
+```
+{
+    "code": 0,
+    "message": "Success",
+    "records": [
+        {
+            "key": "mrniAseF",
+            "value": "gPPZayxTEcfQ",
+            "createdAt": "2015-11-21T04:24:26.167Z",
+            "totalCount": 3757
+        },
+        {
+            "key": "mrniAseF",
+            "value": "gPPZayxTEcfQ",
+            "createdAt": "2015-11-21T04:24:26.167Z",
+            "totalCount": 3757
+        }
+    ]
+}
+```

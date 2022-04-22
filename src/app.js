@@ -53,7 +53,7 @@ app.use((err, req, res, next) => {
     })
 });
 
-const port = accessEnv("APP_PORT", 3000);
+const port = accessEnv("PORT", 3000);
 
 const start = async () => {
 
