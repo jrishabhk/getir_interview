@@ -61,6 +61,7 @@ const start = async () => {
     global.db = dbConnection;
     app.listen(port, () => console.log(`🚀 Getir find Service listening on port ${port}!`))
 }
+
 const wait = async () => {
     await new Promise(res => setTimeout(res, 5000));
 }
