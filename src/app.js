@@ -33,7 +33,7 @@ app.use((req, res, next) => {
 });
 
 //Use routes
-app.get('/', (req, res) => res.send({ message: 'Hello from Getir' }))
+app.get('/', (req, res) => res.send({ message: 'Hello from Getir' }));
 
 app.use('/Record/', RecordRouter);
 
@@ -53,7 +53,7 @@ app.use((err, req, res, next) => {
     })
 });
 
-const port = accessEnv("APP_PORT", 9521);
+const port = accessEnv("APP_PORT", 3000);
 
 const start = async () => {
 
