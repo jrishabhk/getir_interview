@@ -38,6 +38,10 @@ const findRecords = async function(collectionName, startDate, endDate, minCount,
             },
             
           }
+        }, {
+          '$unset': [
+            'value'
+          ]
         }
     ];
 

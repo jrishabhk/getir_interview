@@ -59,7 +59,7 @@ const start = async () => {
 
     const dbConnection = await MongoDBConnect();
     global.db = dbConnection;
-    app.listen(port, () => console.log(`🚀 Getir find Service listening on port ${port}!`))
+    app.listen(port, () => console.log(`🚀 Getir find Service listening on port ${port}!`));
 }
 
 const wait = async () => {
@@ -86,3 +86,7 @@ const main = async () => {
 }
 
 main();
+
+
+// export app for jest test suite   
+module.exports = app;
